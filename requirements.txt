@@ -1,0 +1,8 @@
+pandas
+pydeck
+numpy
+pyarrow
+fastapi
+uvicorn[standard]
+plotly
+scikit-learn

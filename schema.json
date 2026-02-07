@@ -1,0 +1,23 @@
+{
+  "borough_code": "int64",
+  "block": "int64",
+  "lot": "int64",
+  "sale_price": "int64",
+  "zip_code": "float64",
+  "borough": "object",
+  "yearbuilt": "float64",
+  "lotarea": "float64",
+  "bldgarea": "float64",
+  "resarea": "float64",
+  "comarea": "float64",
+  "unitsres": "float64",
+  "unitstotal": "float64",
+  "numfloors": "float64",
+  "latitude": "float64",
+  "longitude": "float64",
+  "landuse": "float64",
+  "bldgclass": "object",
+  "building_age": "float64",
+  "sale_price_log": "float64",
+  "price_per_bldg_sqft": "float64"
+}

@@ -94,10 +94,11 @@ fig_map.update_layout(
     mapbox_style="carto-darkmatter",
     margin={"r":0,"t":40,"l":0,"b":0},
     paper_bgcolor="black",
-    font_color="#00ffcc"
+    font_color="#00ffcc",
+    dragmode="pan"
 )
 
-fig_map.write_html("nyc_cluster_map.html")
+fig_map.write_html("nyc_cluster_map.html", config={'scrollZoom': True, 'displayModeBar': True})
 print("Saved nyc_cluster_map.html")
 
 # ==========================================
